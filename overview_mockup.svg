@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="620" fill="#F5F6FA"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="210" height="620" fill="#FFFFFF"/>
+  <line x1="210" y1="0" x2="210" y2="620" stroke="#E5E7EB"/>
+  <text x="24" y="44" font-size="18" font-weight="800" fill="#0F172A">📊 Lumina Markets</text>
+  <text x="24" y="64" font-size="11" fill="#64748B">Equity analytics terminal</text>
+  <rect x="16" y="86" width="178" height="30" rx="8" fill="#EEEDFE"/>
+  <text x="28" y="106" font-size="13" font-weight="700" fill="#4F46E5">Overview</text>
+  <g font-size="13" fill="#64748B">
+    <text x="28" y="142">Technical Analysis</text>
+    <text x="28" y="172">Portfolio</text>
+    <text x="28" y="202">Market Intelligence</text>
+    <text x="28" y="232">Data Analytics</text>
+    <text x="28" y="262">AI Insights</text>
+  </g>
+  <line x1="16" y1="286" x2="194" y2="286" stroke="#E5E7EB"/>
+  <text x="24" y="312" font-size="11" font-weight="700" fill="#64748B">GLOBAL CONTROLS</text>
+  <rect x="16" y="324" width="178" height="30" rx="8" fill="#F5F6FA" stroke="#E5E7EB"/>
+  <text x="28" y="344" font-size="12" fill="#0F172A">AAPL</text>
+  <rect x="16" y="364" width="178" height="8" rx="4" fill="#E5E7EB"/>
+  <circle cx="120" cy="368" r="7" fill="#7C3AED"/>
+
+  <!-- Banner -->
+  <rect x="232" y="20" width="752" height="80" rx="18" fill="url(#brand)"/>
+  <text x="256" y="50" font-size="11" fill="#EEEDFE" letter-spacing="1">LUMINA MARKETS · EQUITY TERMINAL</text>
+  <text x="256" y="76" font-size="22" font-weight="800" fill="#FFFFFF">Apple Inc. (AAPL)</text>
+  <text x="256" y="94" font-size="12" fill="#CECBF6">Technology · USD · Live overview &amp; technicals</text>
+
+  <!-- KPI cards -->
+  <g>
+    <g>
+      <rect x="232" y="116" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="246" y="140" font-size="10" fill="#64748B">💵 PRICE</text>
+      <text x="246" y="164" font-size="20" font-weight="800" fill="#0F172A">$214.29</text>
+      <text x="246" y="180" font-size="11" fill="#16A34A">+1.84%</text>
+    </g>
+    <g>
+      <rect x="362" y="116" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="376" y="140" font-size="10" fill="#64748B">🏛️ MKT CAP</text>
+      <text x="376" y="164" font-size="20" font-weight="800" fill="#0F172A">$3.26T</text>
+    </g>
+    <g>
+      <rect x="492" y="116" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="506" y="140" font-size="10" fill="#64748B">🔊 VOLUME</text>
+      <text x="506" y="164" font-size="20" font-weight="800" fill="#0F172A">48.2M</text>
+    </g>
+    <g>
+      <rect x="622" y="116" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="636" y="140" font-size="10" fill="#64748B">⚖️ P/E</text>
+      <text x="636" y="164" font-size="20" font-weight="800" fill="#0F172A">33.1</text>
+    </g>
+    <g>
+      <rect x="752" y="116" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="766" y="140" font-size="10" fill="#64748B">📐 52W HIGH</text>
+      <text x="766" y="164" font-size="20" font-weight="800" fill="#0F172A">$237</text>
+    </g>
+    <g>
+      <rect x="882" y="116" width="102" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB"/>
+      <text x="896" y="140" font-size="10" fill="#64748B">📈 CHANGE</text>
+      <text x="896" y="164" font-size="20" font-weight="800" fill="#16A34A">+3.86</text>
+    </g>
+  </g>
+
+  <!-- Main chart card -->
+  <rect x="232" y="200" width="540" height="400" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="256" y="228" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1">PRICE ACTION</text>
+  <text x="256" y="250" font-size="16" font-weight="800" fill="#0F172A">Candlestick &amp; Volume</text>
+  <g stroke="#E5E7EB"><line x1="256" y1="300" x2="748" y2="300"/><line x1="256" y1="370" x2="748" y2="370"/><line x1="256" y1="440" x2="748" y2="440"/></g>
+  <polyline points="270,440 320,420 370,425 420,395 470,400 520,360 570,370 620,330 670,315 720,300" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+  <g>
+    <g stroke="#16A34A"><line x1="285" y1="400" x2="285" y2="455" stroke-width="2"/><rect x="279" y="412" width="12" height="30" fill="#16A34A"/></g>
+    <g stroke="#DC2626"><line x1="335" y1="395" x2="335" y2="448" stroke-width="2"/><rect x="329" y="406" width="12" height="28" fill="#DC2626"/></g>
+    <g stroke="#16A34A"><line x1="385" y1="388" x2="385" y2="440" stroke-width="2"/><rect x="379" y="398" width="12" height="30" fill="#16A34A"/></g>
+    <g stroke="#16A34A"><line x1="435" y1="360" x2="435" y2="415" stroke-width="2"/><rect x="429" y="372" width="12" height="32" fill="#16A34A"/></g>
+    <g stroke="#DC2626"><line x1="485" y1="368" x2="485" y2="420" stroke-width="2"/><rect x="479" y="380" width="12" height="28" fill="#DC2626"/></g>
+    <g stroke="#16A34A"><line x1="535" y1="332" x2="535" y2="388" stroke-width="2"/><rect x="529" y="344" width="12" height="34" fill="#16A34A"/></g>
+    <g stroke="#DC2626"><line x1="585" y1="340" x2="585" y2="392" stroke-width="2"/><rect x="579" y="350" width="12" height="30" fill="#DC2626"/></g>
+    <g stroke="#16A34A"><line x1="635" y1="300" x2="635" y2="356" stroke-width="2"/><rect x="629" y="312" width="12" height="34" fill="#16A34A"/></g>
+    <g stroke="#16A34A"><line x1="685" y1="288" x2="685" y2="340" stroke-width="2"/><rect x="679" y="298" width="12" height="32" fill="#16A34A"/></g>
+    <g stroke="#16A34A"><line x1="720" y1="280" x2="720" y2="330" stroke-width="2"/><rect x="714" y="290" width="12" height="30" fill="#16A34A"/></g>
+  </g>
+  <g opacity="0.4">
+    <rect x="279" y="540" width="12" height="40" fill="#16A34A"/><rect x="329" y="552" width="12" height="28" fill="#DC2626"/>
+    <rect x="379" y="536" width="12" height="44" fill="#16A34A"/><rect x="429" y="528" width="12" height="52" fill="#16A34A"/>
+    <rect x="479" y="548" width="12" height="32" fill="#DC2626"/><rect x="529" y="524" width="12" height="56" fill="#16A34A"/>
+    <rect x="579" y="550" width="12" height="30" fill="#DC2626"/><rect x="629" y="532" width="12" height="48" fill="#16A34A"/>
+    <rect x="679" y="520" width="12" height="60" fill="#16A34A"/><rect x="714" y="534" width="12" height="46" fill="#16A34A"/>
+  </g>
+
+  <!-- Right column -->
+  <rect x="784" y="200" width="200" height="190" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="804" y="228" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1">SNAPSHOT</text>
+  <rect x="804" y="240" width="120" height="26" rx="13" fill="#DCFCE7"/>
+  <text x="816" y="257" font-size="12" font-weight="700" fill="#16A34A">Strong Uptrend</text>
+  <text x="804" y="296" font-size="10" fill="#64748B">SENTIMENT SCORE</text>
+  <text x="804" y="318" font-size="18" font-weight="800" fill="#0F172A">72/100 · Greed</text>
+  <text x="804" y="346" font-size="10" fill="#64748B">RSI (14)</text>
+  <text x="804" y="368" font-size="18" font-weight="800" fill="#0F172A">61</text>
+
+  <rect x="784" y="402" width="200" height="198" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="804" y="430" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1">QUICK INSIGHTS</text>
+  <g>
+    <rect x="800" y="442" width="168" height="46" rx="12" fill="#F5F6FA" stroke="#E5E7EB"/>
+    <text x="812" y="462" font-size="14">📈</text>
+    <text x="832" y="460" font-size="11" font-weight="700" fill="#0F172A">Bullish MACD</text>
+    <text x="832" y="476" font-size="10" fill="#64748B">Momentum tilting up</text>
+  </g>
+  <g>
+    <rect x="800" y="496" width="168" height="46" rx="12" fill="#F5F6FA" stroke="#E5E7EB"/>
+    <text x="812" y="516" font-size="14">🧭</text>
+    <text x="832" y="514" font-size="11" font-weight="700" fill="#0F172A">Strong Uptrend</text>
+    <text x="832" y="530" font-size="10" fill="#64748B">MAs aligned upward</text>
+  </g>
+  <g>
+    <rect x="800" y="550" width="168" height="40" rx="12" fill="#F5F6FA" stroke="#E5E7EB"/>
+    <text x="812" y="574" font-size="14">📊</text>
+    <text x="832" y="568" font-size="11" font-weight="700" fill="#0F172A">+18.4% window</text>
+    <text x="832" y="582" font-size="10" fill="#64748B">Moderate volatility</text>
+  </g>
+</svg>
